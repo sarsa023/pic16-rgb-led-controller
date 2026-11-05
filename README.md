@@ -111,11 +111,11 @@ The simulation was used to test the interaction between the microcontroller, key
 ```text
 pic16-rgb-led-controller/
 ├── src/
-│   ├── main.c     # C code
-|   ├── c_rgb.hex  # hex file to put in protues microcontroller
+│   └── main.c     # C code
 ├── Proteus/
 │   ├── circuit.pdsprj
 |   ├── circuit_proteus.png
+|   ├── main.hex   # hex file to run in proteus microcontroller
 ├── simple_test/   # testing images
 │   └── ...
 └── README.md
